@@ -1,1 +1,1 @@
-export function Card(props) { return <div {...props} />; }
+const Card = ({ children }) => <div className="card">{children}</div>; export default Card;

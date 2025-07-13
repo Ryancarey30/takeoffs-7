@@ -1,1 +1,1 @@
-export function Select(props) { return <select {...props} />; }
+const Select = ({ children, ...props }) => <select {...props}>{children}</select>; export default Select;

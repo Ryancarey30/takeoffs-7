@@ -1,1 +1,1 @@
-export function Label(props) { return <label {...props} />; }
+const Label = ({ children }) => <label className="label">{children}</label>; export default Label;

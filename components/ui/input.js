@@ -1,1 +1,1 @@
-export function Input(props) { return <input {...props} />; }
+const Input = (props) => <input {...props} className="input" />; export default Input;
